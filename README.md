@@ -40,5 +40,6 @@ RUN apt-get install -y clang
 #### test the installation
 Run the following command in the example folder:
 ```bash
-scan-build-9
+cd ex-scan-build
+./run.sh
 ```
