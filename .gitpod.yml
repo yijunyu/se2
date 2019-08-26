@@ -1,2 +1,5 @@
 image:
   file: Dockerfile
+tasks:
+  - command: . .bashrc && echo Demo Bazel && cd ex-bazel && ./run.sh
+  - command: . .bashrc && echo Demo Scan-Build && cd ex-scan-build && ./run.sh
