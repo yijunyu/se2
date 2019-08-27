@@ -11,7 +11,8 @@ if [ ! -d tiny-workspace ]; then
 fi
 cd tiny-workspace
 echo query --package_path $(pwd):$HOME/bin/base_workspace > ~/.bazelrc
-bazel query 'deps(//:main)' --output graph > graph.in
+#bazel query 'deps(//:main)' --output graph > graph.in
+bazel query --noimplicit_deps 'deps(//:main)' --output graph > graph.in
 dot -Tpng < graph.in > graph.png
 gp open graph.png
 cd -
