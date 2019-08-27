@@ -6,4 +6,5 @@ RUN wget https://github.com/bazelbuild/bazel/releases/download/0.28.1/bazel-0.28
 RUN chmod +x bazel-0.28.1-installer-linux-x86_64.sh \
  && ./bazel-0.28.1-installer-linux-x86_64.sh --user
 RUN apt-get install -y clang
+RUN apt-get install -y graphviz
 USER gitpod
