@@ -1,0 +1,10 @@
+{
+    "cpp.buildConfigurations": [{
+        "name": "Release",
+        "directory": "/workspace/se2/envoy"
+    },{
+        "name": "Debug",
+        "directory": "/workspace/se2/envoy"
+    }],
+    "cpp.clangdExecutable": "/usr/bin/clangd"
+}
