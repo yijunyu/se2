@@ -7,5 +7,5 @@ RUN chmod +x bazel-0.28.1-installer-linux-x86_64.sh \
  && ./bazel-0.28.1-installer-linux-x86_64.sh --user
 RUN apt-get install -y clang
 RUN apt-get install -y graphviz
-RUN apt-get install -y ninja
+RUN apt-get install -y ninja-build
 USER gitpod
