@@ -1,0 +1,13 @@
+{
+        "label": "[Task] clang-tidy",
+        "type": "shell",
+        "cwd": "${workspaceFolder}",
+        "command": "clang-tidy",
+        "args": [
+            "*"
+        ],
+        "options": {},
+        "problemMatcher": [
+            "$clangTidyMatcher"
+        ]
+}

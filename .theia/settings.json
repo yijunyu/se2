@@ -6,5 +6,7 @@
         "name": "Debug",
         "directory": "/workspace/se2/envoy"
     }],
-    "cpp.clangdExecutable": "/usr/bin/clangd"
+    "cpp.clangdExecutable": "/usr/bin/clangd",
+    "cpp.clangdArgs": "--background-index",
+    "cpp.clangTidyChecks": "*,-readability-*"
 }
