@@ -5,7 +5,3 @@ tasks:
 #  - command: . .bashrc && echo Demo Scan-Build && cd ex-scan-build && ./run.sh
   - command: . .bashrc && echo Demo Checkout && git clone https://github.com/envoyproxy/envoy.git
   - command: . .bashrc && echo Demo Checkout && git clone https://github.com/chromium/chromium
-
-vscode:
-  extensions:
-    - mhutchie.git-graph@1.13.0:Od58JR4mGjyOoxdE0/d9yA==
