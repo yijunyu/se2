@@ -14,5 +14,5 @@ RUN pip install cpplint
 RUN apt-get install -y graphviz
 RUN apt-get install -y ninja-build
 RUN usermod -a -G root gitpod
-RUN chmod -R g+rwx /
+RUN chmod -R g+rwx /usr /root
 USER gitpod
